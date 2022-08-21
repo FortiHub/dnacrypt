@@ -6,6 +6,10 @@ setup(
     author = 'Rodrigo Forti',
     author_email = 'rodrigofort14@gmail.com',
     packages = ['dnacrypt'],
+    install_requires=[
+          'random',
+          'unidecode',
+      ],
     description = "A simple code for encryption based on the genetic code of DNA",
     long_description = 'A simple code for encryption based on the genetic code of DNA '
                         + 'you can also use to decrypt too ',
