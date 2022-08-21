@@ -64,25 +64,25 @@ print(dnacrypt.dnacrypt.description)
 ```
 
 
-### How to use it
+## How to use it
 
-## To encrypt the message use this command:
+### To encrypt the message use this command:
 
 ```
 dnacrypt.dnacrypt('encrypt','Esse script foi feito pensando melhorar minhas skills')
 ```
 
-## Output
+### Output
 
 UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACAGCGUCGCCGAAUGUCUAGAAGACGGGAUAGACGCAGCACUAAGAGGGAUAUUAAAACUGAUAUUCGGACUAGGAAAGAUAAGCGGAACAGACAGAACCGAAAAGAUAAUCGGACGAUAAAAAGCCAGAGCGAUAAUACUAACAUACAGAGAGAUAGAACAACUACGACGAGAUAAUUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAU
 
-## To decrypt the message use this command:
+### To decrypt the message use this command:
 
 ```
 dnacrypt.dnacrypt('decrypt','UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAUCACCAACAGCGUCGCCGAAUGUCUAGAAGACGGGAUAGACGCAGCACUAAGAGGGAUAUUAAAACUGAUAUUCGGACUAGGAAAGAUAAGCGGAACAGACAGAACCGAAAAGAUAAUCGGACGAUAAAAAGCCAGAGCGAUAAUACUAACAUACAGAGAGAUAGAACAACUACGACGAGAUAAUUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUCCUACUGCCUCCCCCACCGCAU')
 ```
 
-## Output
+### Output
 
 Esse script foi feito pensando melhorar minhas skills.
 
@@ -94,9 +94,9 @@ Esse script foi feito pensando melhorar minhas skills.
 
 ## Authors
 
-* **Rodrigo Forti** - *Initial work* - [CataLux Python Labs](https://github.com/CataLux)
+* **Rodrigo Forti** - *Initial work* - [CataLux Python Labs](https://github.com/FortiHub)
 
-See also the list of [contributors](https://github.com/catalux/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/FortiHub/contributors) who participated in this project.
 
 ## License
 
