@@ -48,7 +48,7 @@ Após seu registro faça o UPLOAD da sua biblioteca para o TestPyPi.org usando o
 twine upload dist/* --repository-url https://test.pypi.org/legacy/
 ```
 
-Recomendo fazer um teste prévio de usuabilidade da biblioteca antes de mandar para o repositório oficial do [PyPi.org](https://test.pypi.org/)
+Recomendo fazer um teste prévio de usuabilidade da biblioteca antes de mandar para o repositório oficial do [TestPyPi.org](https://test.pypi.org/)
 
 ### 5a Etapa
 
@@ -60,7 +60,7 @@ twine upload dist/*
 
 ### OBS
 
-Nota externa!!! (https://www.alura.com.br/artigos/como-publicar-seu-codigo-python-no-pypi?gclid=Cj0KCQjwjIKYBhC6ARIsAGEds-I6nYx5vkxLoAtora3oZkoR2n_OH759VhrV-J61YL9jpy_NJbh0Ph0aAowpEALw_wcB)
+[Nota externa!!!](https://www.alura.com.br/artigos/como-publicar-seu-codigo-python-no-pypi?gclid=Cj0KCQjwjIKYBhC6ARIsAGEds-I6nYx5vkxLoAtora3oZkoR2n_OH759VhrV-J61YL9jpy_NJbh0Ph0aAowpEALw_wcB)
 
 Podemos simplificar todo esse processo com um arquivo .pypirc, que deve ser armazenado na pasta HOME de nosso sistema:
 
