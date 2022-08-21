@@ -3,5 +3,5 @@
 ### 1a Etapa 
 
 Preparar os arquivos de acordo com a árvore de arquivos abaixo:
-![Files Tree](https://github.com/FortiHub/dnacrypt/screensave.png)
+![Files Tree](https://github.com/FortiHub/dnacrypt/blob/main/howtopublishintopypi/screensave.png))
 
