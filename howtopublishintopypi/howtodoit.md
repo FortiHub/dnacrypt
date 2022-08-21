@@ -11,7 +11,7 @@ pip install setuptools
 ### 2a Etapa 
 
 Preparar os arquivos de acordo com a árvore de arquivos abaixo:
-![Files Tree](https://github.com/FortiHub/dnacrypt/blob/main/howtopublishintopypi/screensave.png))
+![Files Tree](https://github.com/FortiHub/dnacrypt/blob/main/howtopublishintopypi/screensave.png)
 
 * Siga o modelo de cada arquivo e sua repectiva localização dentro da árvore!
 
@@ -26,7 +26,7 @@ python setup.py sdist
 ```
 
 Após esse comando você verá que sua árvore agora ficou assim:
-![Files Tree 2](https://github.com/FortiHub/dnacrypt/blob/main/howtopublishintopypi/screensave2.png))
+![Files Tree 2](https://github.com/FortiHub/dnacrypt/blob/main/howtopublishintopypi/screensave2.png)
 
 Note que agora temos mais dois diretórios, dist e dnacrypt.egg-info, que contêm um arquivo compactado do projeto e informações para o PyPI, respectivamente.
 
@@ -40,7 +40,7 @@ pip install twine
 
 Agora que já temos nosso projeto pronto e empacotado, precisamos colocá-lo no repositório do PyPI. 
 
-* Recomendo inicialmente fazer um UPLOAD para o TestPyPI.org na versão teste para isso clique aqui(https://test.pypi.org/account/register/) para fazer seu registro caso ainda não possua!
+* Recomendo inicialmente fazer um UPLOAD para o TestPyPI.org na versão teste. [Clique aqui](https://test.pypi.org/account/register/) para fazer seu registro caso ainda não possua!
 
 Após seu registro faça o UPLOAD da sua biblioteca para o TestPyPi.org usando o comando abaixo:
 
@@ -48,11 +48,11 @@ Após seu registro faça o UPLOAD da sua biblioteca para o TestPyPi.org usando o
 twine upload dist/* --repository-url https://test.pypi.org/legacy/
 ```
 
-Recomendo fazer um teste prévio de usuabilidade da biblioteca antes de mandar para o repositório oficial do PyPi.org(https://test.pypi.org/)
+Recomendo fazer um teste prévio de usuabilidade da biblioteca antes de mandar para o repositório oficial do [PyPi.org](https://test.pypi.org/)
 
 ### 5a Etapa
 
-Estando tudo certo com sua biblioteca. Faça seu registro no PyPi.org(https://pypi.org/account/register/) e execute o seguinte comando:
+Estando tudo certo com sua biblioteca. Faça seu registro no [PyPi.org](https://pypi.org/account/register/) e execute o seguinte comando:
 
 ```
 twine upload dist/*
