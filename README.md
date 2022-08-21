@@ -90,6 +90,16 @@ dnacrypt.dnacrypt('decrypt','UUUUUCUUAUUGUCUUCCUCAUCGUAUUACGCAUGUUGCGCGUGGCUUCUC
 
 Esse script foi feito pensando melhorar minhas skills.
 
+## Sample
+
+```
+import dnacrypt
+teste = dnacrypt.dnacrypt("encrypt","Bioinformática é o máximo!!!")
+print(teste.show())
+print("Original Text:",teste.msg)
+print("Type:",teste.type)
+```
+
 ## Built With
 
 * [VisualCode](Esse script foi feito pensando melhorar minhas skills) - The web framework used
