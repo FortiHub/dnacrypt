@@ -6,6 +6,10 @@ DNA CRYPTO is a package to use in python that uses DNA code-based encryption to 
 
 Just use pip to install it! 
 
+```
+pip install dnacrypt
+```
+
 ### Prerequisites
 
 To use dnacrypt is necessary have installed random package and unidecode package.
